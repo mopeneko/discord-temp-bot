@@ -13,19 +13,19 @@ poetry run python main.py
 
 - DISCORD_TOKEN
 
-Discordのトークン
+  Discordのトークン
 
 - SWITCHBOT_TOKEN
 
-SwitchBotのトークン
-SwitchBotアプリの `アプリバージョン` を10回連打すると出現する `開発者向けオプション` から発行可能
+  SwitchBotのトークン
+  SwitchBotアプリの `アプリバージョン` を10回連打すると出現する `開発者向けオプション` から発行可能
 
 - SWITCHBOT_DEVICE_ID
 
-SwitchBot 温湿度計のデバイスID
-以下のコマンドで取得可能
-```
-curl --request GET 'https://api.switch-bot.com/v1.0/devices' \                  
---header 'Authorization: {SWITCHBOT_TOKEN}' \
---header 'Content-Type: application/json; charset=utf8'
-```
+  SwitchBot 温湿度計のデバイスID
+  以下のコマンドで取得可能
+  ```
+  curl --request GET 'https://api.switch-bot.com/v1.0/devices' \                  
+  --header 'Authorization: {SWITCHBOT_TOKEN}' \
+  --header 'Content-Type: application/json; charset=utf8'
+  ```
