@@ -18,6 +18,7 @@ poetry run python main.py
 - SWITCHBOT_TOKEN
 
   SwitchBotのトークン
+
   SwitchBotアプリの `アプリバージョン` を10回連打すると出現する `開発者向けオプション` から発行可能
 
 - SWITCHBOT_DEVICE_ID
